@@ -1,0 +1,13 @@
+git clone url
+cd reponame
+touch filename
+code .
+write something on vs code (Need to be on Auto save)
+come back to cmd
+git status (will be on red)
+gi add filename
+git status (should be on green)
+git commit -m "message"
+git log --oneline (it will provide status of commit with ID)
+git push origin main
+done
